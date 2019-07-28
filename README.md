@@ -155,6 +155,13 @@ const whoIsTheBestIA = () => console.log('Alanoud')
 Your solution:
 
 ```js
+const fullName = function(first , last) {return `${first} ${last}`}
+
+
+const fullName = (first , last)=> {return `${first} ${last}`}
+
+
+const fullName = (first , last) =>  `${first} ${last}`
 
 ```
 
@@ -171,6 +178,7 @@ sayHello();
 Your solution:
 
 ```js
+const sayHello = (name = 'World') => console.log(`Hello ${name}`)
 
 ```
 
