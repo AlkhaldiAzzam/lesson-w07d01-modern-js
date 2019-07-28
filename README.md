@@ -261,6 +261,16 @@ instructors.forEach(function(item){
     // in totalNumbersUnder4000
     //
     // Write your solution here
+    
+    friends.forEach(name => console.log(`Hi ${name}));
+    
+    nums.forEach(num => total += num);
+    
+    nums.forEach(num => {
+    nNum = parseInt(num ,10)
+    if (nNum < 4000) { totalNumbersUnder4000 += nNum;}
+    
+    })
     ```
 
 **Resources:**
