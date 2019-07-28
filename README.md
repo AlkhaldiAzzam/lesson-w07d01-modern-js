@@ -134,6 +134,11 @@ function whoIsTheBestIA() {
 Your solution:
 
 ```js
+const addFive = num => 5 + num;
+
+const devide = (num1 , num2) => num1/num2
+
+const whoIsTheBestIA = () => console.log('Alanoud')
 
 ```
 
@@ -227,7 +232,7 @@ instructors.forEach(function(item){
 
     // For each friend in friends, print "Hi friendName!"
     // Write your solution here
-    ```
+    ``` 
 2. Crazy Numbers
     ```js
     // Thats an array with crazy numbers we cant read 😯
