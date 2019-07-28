@@ -266,10 +266,10 @@ instructors.forEach(function(item){
     
     nums.forEach(num => total += num);
     
-    nums.forEach(num => {
-    nNum = parseInt(num ,10)
+    stringNumbers.forEach(num => {
+    nNum = parseFloat(num )
     if (nNum < 4000) { totalNumbersUnder4000 += nNum;}
-    
+
     })
     ```
 
